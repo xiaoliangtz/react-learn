@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  width: 100%;
+  border: 2px solid #000;
+  .left_layout {
+    width: 200px;
+    border: 2px solid lightblue;
+    order: 1;
+  }
+  .main_layout {
+    order: 2;
+    flex: 1 1 auto;
+    border: 2px solid #d1b123;
+  }
+  .right_layout {
+    order: 3;
+    width: 200px;
+    border: 2px solid #ce0f0f;
+  }
+}
